@@ -34,7 +34,7 @@ insert into funcionarios(nome, idade) values('Hugo',17),('Fabio',19),('Daniel',2
     add constraint funcionarioQueVendeu
     foreign key (id_func) references funcionarios(idfunc);
 
-    insert into vendas(id_func) values(1);
+    insert into vendas(id_func) values(2);
 
 select * from cliente;
 
